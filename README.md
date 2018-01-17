@@ -2,4 +2,4 @@
 Deep Structured Energy-Based Image Inpainting
 
 
-Model File: http://www2.vision.is.tohoku.ac.jp/~altinel/uploadFiles/celebA.tar.gz
+Model File: http://vision.is.tohoku.ac.jp/~altinel/uploadFiles/
