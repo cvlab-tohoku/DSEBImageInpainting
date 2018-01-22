@@ -1,5 +1,5 @@
-# DSEBImageInpainting
-Deep Structured Energy-Based Image Inpainting
+# Deep Structured Energy-Based Image Inpainting
+
 
 ## Overview
 
