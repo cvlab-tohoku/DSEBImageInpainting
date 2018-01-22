@@ -1,5 +1,5 @@
 # Deep Structured Energy-Based Image Inpainting
-
+Fazil Altinel, Mete Ozay, Takayuki Okatani
 
 ## Overview
 
