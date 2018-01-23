@@ -1,7 +1,7 @@
 # Deep Structured Energy-Based Image Inpainting
 Fazil Altinel, Mete Ozay, Takayuki Okatani  -  [http://www.vision.is.tohoku.ac.jp/](http://www.vision.is.tohoku.ac.jp/us/home/)
 
-![](/ReadmeImages/iterations.gif)
+![](/files/readmeImages/iterations.gif)
 
 ## Overview
 
