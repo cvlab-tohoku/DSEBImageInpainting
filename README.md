@@ -38,7 +38,8 @@ Tests are performed with following version of libraries:
 + TensorFlow 1.0.1
 
 ## Running
-Download CelebA dataset: [http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+Download CelebA dataset (Align&Cropped Images): [http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+
 Download model file: http://vision.is.tohoku.ac.jp/~altinel/uploadFiles/celebA.tar.gz
 
 ```
