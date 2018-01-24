@@ -24,8 +24,8 @@ files/
 ├── imgs/ - Test images folder.
 ├── model/ - Model files folder.
 └── results/ - Test results folder.
-inpaint.py - 
-utils.py - 
+inpaint.py - Loads the model file and generates inpainted image(s) for given image(s). 
+utils.py - Various utilities for 'inpaint.py'.
 ```
 Model File: http://vision.is.tohoku.ac.jp/~altinel/uploadFiles/celebA.tar.gz
 
