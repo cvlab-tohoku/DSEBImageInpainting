@@ -40,11 +40,20 @@ Tests are performed with following version of libraries:
 ## Running
 Download CelebA dataset (Align&Cropped Images): [http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
-Download model file: http://vision.is.tohoku.ac.jp/~altinel/uploadFiles/celebA.tar.gz
+Download model file: http://vision.is.tohoku.ac.jp/~altinel/uploadFiles/celebA.tar.gz. Extract and locate the files under `files/model/`
 
+
+Run the command below for all testing set in CelebA dataset:
 ```
-python inpaint.py
+$ python inpaint.py --allTest True --allImagesPath /path/to/all/dataset/folder/
 ```
+
+Run the command below for testing images under `files/imgs/`:
+```
+$ python inpaint.py --allTest False --testImagesPath files/imgs/
+```
+
+Result images will be located under `files/results/`
 
 ## License
 The source code is licensed under [GNU General Public License v3.0](./LICENSE).
