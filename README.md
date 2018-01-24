@@ -1,9 +1,15 @@
 # Deep Structured Energy-Based Image Inpainting
 Fazil Altinel, Mete Ozay, Takayuki Okatani  -  [http://www.vision.is.tohoku.ac.jp/](http://www.vision.is.tohoku.ac.jp/us/home/)
 
+![](/files/readmeImages/iterations.gif)
+
+## Overview
 This repository contains TensorFlow implementation of Deep Structured Energy-Based Image Inpainting paper.
 
-![](/files/readmeImages/iterations.gif)
++ Network Architecture
+```
+CONV(KernelSize=8, NumFilter= 32, Stride=4) - CONV(KernelSize=4, NumFilter= 64, Stride=2) - CONV(KernelSize=3, NumFilter= 64, Stride=1) - FC(512)
+```
 
 ## Files
 ```
