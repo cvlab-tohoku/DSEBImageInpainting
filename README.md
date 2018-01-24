@@ -23,11 +23,11 @@ For parameter update: Learning rate = 0.001.
 ## Files
 ```
 files/
-├── imgs/ - Test images folder.
-├── model/ - Model files folder.
-└── results/ - Test results folder.
-inpaint.py - Loads the model file and generates inpainted image(s) for given image(s). 
-utils.py - Various utilities for 'inpaint.py'.
+├── imgs/ - Test images folder
+├── model/ - Model files folder
+└── results/ - Test results folder
+inpaint.py - Loads the model file and generates inpainted image(s) for given image(s).
+utils.py - Various utilities for 'inpaint.py'
 ```
 
 ## Dependencies
