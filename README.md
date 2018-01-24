@@ -1,9 +1,9 @@
 # Deep Structured Energy-Based Image Inpainting
 Fazil Altinel, Mete Ozay, Takayuki Okatani  -  [http://www.vision.is.tohoku.ac.jp/](http://www.vision.is.tohoku.ac.jp/us/home/)
 
-![](/files/readmeImages/iterations.gif)
+This repository contains TensorFlow implementation of Deep Structured Energy-Based Image Inpainting paper.
 
-## Overview
+![](/files/readmeImages/iterations.gif)
 
 ## Files
 Model File: http://vision.is.tohoku.ac.jp/~altinel/uploadFiles/celebA.tar.gz
@@ -13,4 +13,5 @@ Model File: http://vision.is.tohoku.ac.jp/~altinel/uploadFiles/celebA.tar.gz
 ## Running
 
 ## License
+The source code is licensed under [GNU General Public License v3.0](./LICENSE)
 
