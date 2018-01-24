@@ -4,7 +4,9 @@ Fazil Altinel, Mete Ozay, Takayuki Okatani  -  [http://www.vision.is.tohoku.ac.j
 ![](/files/readmeImages/iterations.gif)
 
 ## Overview
-This repository contains TensorFlow implementation of Deep Structured Energy-Based Image Inpainting paper.
+This repository contains TensorFlow implementation of "Deep Structured Energy-Based Image Inpainting" paper.
+
+![](/files/readmeImages/lfSonGithub.png)
 
 + Network Architecture
 ```
@@ -40,4 +42,3 @@ Tests are performed with following version of libraries:
 
 ## License
 The source code is licensed under [GNU General Public License v3.0](./LICENSE).
-
