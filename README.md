@@ -8,13 +8,13 @@ This repository contains TensorFlow implementation of "Deep Structured Energy-Ba
 
 ![](/files/readmeImages/lfSonGithub.png)
 
-+ Network Architecture
++ Network Architecture:
 ```
 Input(x)  -> CONV1(KernelSize=8, NumFilter= 32, Stride=4) -> CONV2(KernelSize=4, NumFilter= 64, Stride=2) -> CONV3(KernelSize=3, NumFilter= 64, Stride=1) -> FC1(512)
                                                                                                                                                                       > Energy_x(y^)
 Input(y^) -> CONV1(KernelSize=8, NumFilter= 32, Stride=4) -> CONV2(KernelSize=4, NumFilter= 64, Stride=2) -> CONV3(KernelSize=3, NumFilter= 64, Stride=1) -> FC1(512)
 ```
-+ Learning rates that used during training.
++ Learning rates that used during training:
 ```
 For energy update: Learning rate = 0.01, momentum = 0.9.
 For parameter update: Learning rate = 0.001.
