@@ -29,7 +29,6 @@ files/
 inpaint.py - Loads the model file and generates inpainted image(s) for given image(s). 
 utils.py - Various utilities for 'inpaint.py'.
 ```
-Model File: http://vision.is.tohoku.ac.jp/~altinel/uploadFiles/celebA.tar.gz
 
 ## Dependencies
 Tests are performed with following version of libraries:
@@ -39,6 +38,12 @@ Tests are performed with following version of libraries:
 + TensorFlow 1.0.1
 
 ## Running
+Download CelebA dataset: [http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+Download model file: http://vision.is.tohoku.ac.jp/~altinel/uploadFiles/celebA.tar.gz
+
+```
+python inpaint.py
+```
 
 ## License
 The source code is licensed under [GNU General Public License v3.0](./LICENSE).
