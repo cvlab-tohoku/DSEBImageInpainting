@@ -42,7 +42,7 @@ Download CelebA dataset (Align&Cropped Images): [http://mmlab.ie.cuhk.edu.hk/pro
 
 Download the model file trained on CelebA dataset: http://vision.is.tohoku.ac.jp/~altinel/uploadFiles/celebA.tar.gz. Extract and locate the files under `files/model/`.
 
-Run the command below for all testing set in CelebA dataset:
+Run the command below for all testing set of CelebA dataset:
 ```
 $ python inpaint.py --allTest True --allImagesPath /path/to/all/dataset/folder/
 ```
