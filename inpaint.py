@@ -3,11 +3,6 @@
 import tensorflow as tf
 import numpy as np
 import numpy.random as npr
-
-np.set_printoptions(precision=2)
-# np.seterr(all='raise')
-np.seterr(all='warn')
-
 import argparse
 import os
 import utils as ayg
