@@ -54,12 +54,12 @@ Download the model file trained on CelebA dataset: http://vision.is.tohoku.ac.jp
 
 Run the command below for all testing set of CelebA dataset:
 ```
-$ python inpaint.py --allTest True --allImagesPath /path/to/all/dataset/folder/
+$ python inpaint.py --allTest 1 --allImagesPath /path/to/all/dataset/folder/
 ```
 
 Run the command below for testing images under `files/imgs/`:
 ```
-$ python inpaint.py --allTest False --allImagesPath /path/to/all/dataset/folder/ --testImagesPath files/imgs/
+$ python inpaint.py --allTest 0 --allImagesPath /path/to/all/dataset/folder/ --testImagesPath files/imgs/
 ```
 
 Result images will be located under `files/results/`.
