@@ -59,7 +59,7 @@ $ python inpaint.py --allTest True --allImagesPath /path/to/all/dataset/folder/
 
 Run the command below for testing images under `files/imgs/`:
 ```
-$ python inpaint.py --allTest False --testImagesPath files/imgs/
+$ python inpaint.py --allTest False --allImagesPath /path/to/all/dataset/folder/ --testImagesPath files/imgs/
 ```
 
 Result images will be located under `files/results/`.
