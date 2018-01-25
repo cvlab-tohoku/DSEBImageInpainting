@@ -3,6 +3,7 @@ Fazil Altinel, Mete Ozay, Takayuki Okatani  -  [http://www.vision.is.tohoku.ac.j
 
 ![](/files/readmeImages/iterations.gif)
 
+If you make use of this code, please cite the following paper:
 ```
 @article{altinel2018dsebii,
  title={Deep Structured Energy-Based Image Inpainting},
@@ -13,7 +14,7 @@ Fazil Altinel, Mete Ozay, Takayuki Okatani  -  [http://www.vision.is.tohoku.ac.j
 ```
 
 ## Overview
-This repository contains TensorFlow implementation of "Deep Structured Energy-Based Image Inpainting" paper.
+This repository contains TensorFlow implementation of "[Deep Structured Energy-Based Image Inpainting](https://arxiv.org/abs/1801.07939)" paper.
 
 ![](/files/readmeImages/lfSonGithub.png)
 
