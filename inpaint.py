@@ -12,7 +12,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--save', type=str, default='files')
     parser.add_argument('--seed', type=int, default=42)
-    parser.add_argument('--allTest', type=bool, default=True)
+    parser.add_argument('--allTest', type=int, default=1)
     parser.add_argument('--numAllTestImgs', type=int, default=1000)
     parser.add_argument('--numTrainImgs', type=int, default=200000)
     parser.add_argument('--allImagesPath', type=str, default='/path/to/all/dataset/folder/')
@@ -43,7 +43,7 @@ def main():
         _, newTrainY = ayg.createBatch(I, path=args.allImagesPath)
         meanY = np.mean(newTrainY, axis=0)
 
-        if args.allTest == True:
+        if args.allTest == 1:
             I = npr.randint(low=numTrain+1, high=numTrain+numTestImgs, size=numTestImgs)
             valXBatch, valYBatch = ayg.createBatch(I, path=args.allImagesPath)
         else:
