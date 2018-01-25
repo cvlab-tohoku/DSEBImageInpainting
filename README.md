@@ -3,6 +3,15 @@ Fazil Altinel, Mete Ozay, Takayuki Okatani  -  [http://www.vision.is.tohoku.ac.j
 
 ![](/files/readmeImages/iterations.gif)
 
+```
+@article{altinel2018dsebii,
+ title={Deep Structured Energy-Based Image Inpainting},
+ author={Fazil Altinel and Mete Ozay and Takayuki Okatani},
+ journal={arXiv preprint arXiv:1801.07939},
+ year={2018}
+}
+```
+
 ## Overview
 This repository contains TensorFlow implementation of "Deep Structured Energy-Based Image Inpainting" paper.
 
