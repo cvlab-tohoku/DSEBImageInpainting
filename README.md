@@ -14,7 +14,7 @@ If you make use of this code, please cite the following paper:
 ```
 
 ## Overview
-This repository contains TensorFlow implementation of "[Deep Structured Energy-Based Image Inpainting](https://arxiv.org/abs/1801.07939)" paper.
+This repository contains TensorFlow implementation of "[Deep Structured Energy-Based Image Inpainting](https://arxiv.org/abs/1801.07939)" paper (accepted to ICPR 2018).
 
 ![](/files/readmeImages/lfSonGithub.png)
 
