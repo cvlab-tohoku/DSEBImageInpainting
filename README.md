@@ -5,12 +5,17 @@ Fazil Altinel, Mete Ozay, Takayuki Okatani  -  [http://www.vision.is.tohoku.ac.j
 
 If you make use of this code, please cite the following paper:
 ```
-@article{altinel2018dsebii,
- title={Deep Structured Energy-Based Image Inpainting},
- author={Fazil Altinel and Mete Ozay and Takayuki Okatani},
- journal={arXiv preprint arXiv:1801.07939},
- year={2018}
-}
+@INPROCEEDINGS{altinel2018dsebii, 
+author={F. Altinel and M. Ozay and T. Okatani}, 
+booktitle={2018 24th International Conference on Pattern Recognition (ICPR)}, 
+title={Deep Structured Energy-Based Image Inpainting}, 
+year={2018}, 
+volume={}, 
+number={}, 
+pages={423-428},
+doi={10.1109/ICPR.2018.8546025}, 
+ISSN={1051-4651}, 
+month={Aug},}
 ```
 
 ## Overview
