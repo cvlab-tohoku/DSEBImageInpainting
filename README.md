@@ -55,7 +55,7 @@ Tests are performed with following version of libraries:
 ## Running
 Download CelebA dataset (Align&Cropped Images): [http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
 
-Download the model file trained on CelebA dataset: http://vision.is.tohoku.ac.jp/~altinel/uploadFiles/celebA.tar.gz. Extract and locate the files under `files/model/`.
+Download the model file trained on CelebA dataset: https://drive.google.com/open?id=1ulpms4ni4ydJJ2NDm9YIl8zSliulFo7t. Extract and locate the files under `files/model/`.
 
 Run the command below for all testing set of CelebA dataset:
 ```
